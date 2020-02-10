@@ -1,3 +1,3 @@
 # Responsive
-Webpages Using Html and Css
+Webpages Using HTML and CSS
 
