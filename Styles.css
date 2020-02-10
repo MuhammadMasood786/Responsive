@@ -1,0 +1,236 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0%;
+    margin: 0;
+    background-color:#f4f4f4;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.btn_1{
+    height: 30px;
+    background-color: rgb(255, 166, 0);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+header{
+    background: rgb(66, 66, 66);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(255, 166, 0) 5px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0%;
+    padding: 0%;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0 20px;
+}
+
+header .branding{
+    float: left;
+}
+header .branding h1{
+    margin: 0%;
+}
+header nav{
+    float: right;
+    margin-top: -50px;
+}
+header .current a ,header .highlight{
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+.showcase{
+    min-height: 400px;
+    background-color: black;
+    /* background: url("img/6.jpg") no-repeat ; */
+    text-align: center;
+    color: white;
+}
+.showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+.showcase p {
+    font-size: 20px;
+    margin-right: 60px;
+}
+.newletter{
+    padding:15px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.newletter form{
+    float: right;
+    margin-top: -50px;
+}
+.newletter input[type='email']{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+.feature{
+    margin-top: 20px;
+}
+.feature .boxes{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    
+}
+.feature .boxes img{
+    width: 300px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:rgb(255, 166, 0) ;
+    text-align: center;
+    font-size: 20px;
+}
+.dark{
+    background-color: darkslategray;
+    padding: 10px;
+    color: white;
+    border: 0px inset orangered;
+    border-radius: 10px;
+    height: 200px   ;
+}
+
+
+aside .slidebar{
+    float: right;
+    margin-top: 10px;
+    width: 30%;
+}
+article {
+    float: left;
+    margin-top: 10px;
+    width: 60%;
+}
+article .columns{
+    float: left;
+    height: 250px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+article .columns img {
+    width: 200px;
+}
+article .columns p{
+    float: right;
+    margin-top: -200px;
+    width: 40%;
+}
+.btn_3{
+    height: 30px;
+    background-color: rgb(255, 166, 0);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 18px;
+    float: left;
+    margin-bottom: -200px;
+
+}
+
+aside .procedure{
+    margin: 10px;
+    padding: 10px;
+}
+
+aside label{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+
+aside input{
+    padding: 10px;
+}
+
+aside .btn_2{
+    height: 30px;
+    float: right;
+    margin-top:  10px;
+    background-color: rgb(255, 166, 0);
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+article .dark1{
+    background-color: rgb(53, 52, 52);
+    padding: 10px;
+    color: white;
+    border: 0px inset orangered;
+    border-radius: 10px;
+    height: 500px   ;
+    width: 1050px;
+    margin: 0px;
+}
+
+
+article .columns1{
+    float: left;
+    height: 300px;
+    width: 1500px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+article .columns1 img {
+    width: 200px;
+}
+article .columns1 p{
+    float: right;
+    margin-top: -200px;
+    width: 40%;
+}
+
+
